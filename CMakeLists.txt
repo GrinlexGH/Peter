@@ -20,7 +20,7 @@ if(CMAKE_CXX_COMPILER_ID MATCHES "GNU|Clang|AppleClang")
 elseif(CMAKE_CXX_COMPILER_ID MATCHES "MSVC")
     add_compile_options(
         "/W4" "/utf-8" "/Zc:__cplusplus"
-        "$<$<CONFIG:Release>:/WX>"
+        "$<$<CONFIG:Release>:/WX;/Ox>"
     )
 endif()
 
