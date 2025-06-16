@@ -22,7 +22,7 @@ elseif(CMAKE_CXX_COMPILER_ID MATCHES "MSVC")
         "/W4" "/utf-8" "/Zc:__cplusplus"
         "$<$<CONFIG:Release>:/WX>"
     )
-endif
+endif()
 
 add_compile_definitions(UNICODE _UNICODE)
 
