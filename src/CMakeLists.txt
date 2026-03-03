@@ -1,4 +1,4 @@
-add_executable(Peter WIN32 main.cpp resource.h resource.cpp)
+add_executable(Peter WIN32 main.cpp resource.h resource.rc)
 
 set_target_properties(Peter
     PROPERTIES
